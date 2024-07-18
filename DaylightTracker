@@ -1,0 +1,30 @@
+import java.util.*;
+
+
+public class DaylightTracker
+{
+    public static void main(String[]args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("English or Spanish?");
+        String language = scanner.nextLine().toLowerCase();
+
+        switch (language)
+        {
+            case "english":
+                System.out.println("If you move, you're gay");
+                break;
+            case "spanish":
+                System.out.println("Si te mudas, eres gay");
+            case "afrikaans":
+                System.out.println("As jy trek, is jy gay  (nice try but that aint gonna work)");
+            case "albanian":
+                System.out.println("Nëse lëviz, je gej (nice try but that aint gonna work)");
+            case "amharic":
+                System.out.println("ከተንቀሳቀስክ ግብረ ሰዶም ፈጻሚ ነህ። (nice try but that aint gonna work)");
+                
+                
+        
+    }
+}
+}
